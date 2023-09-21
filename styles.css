@@ -22,8 +22,8 @@ nav {
 nav a {
   text-decoration: none;
   color: rgb(120, 120, 120);
-  animation: cubic-bezier();
-  transition: cubic-bezier();
+  animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   animation-duration: 1s;
   transition: 1s;
   font-size: 1.15rem;
@@ -113,9 +113,9 @@ textarea {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  transition: cubic-bezier();
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   transition-duration: 1s;
-  animation: cubic-bezier();
+  animation: cubic-bezier(0.075, 0.82, 0.165, 1);
   animation-duration: 1s;
 }
 .submit-btn:hover {
@@ -136,9 +136,9 @@ ul {
 }
 li {
   color: rgb(94, 94, 94);
-  transition: cubic-bezier();
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   transition-duration: 1s;
-  animation: cubic-bezier();
+  animation: cubic-bezier(0.075, 0.82, 0.165, 1);
   animation-duration: 1s;
 }
 li:hover {
